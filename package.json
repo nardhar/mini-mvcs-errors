@@ -1,0 +1,29 @@
+{
+  "name": "mini-mvcs-errors",
+  "version": "0.1.0",
+  "description": "Small Utility library for handling and transforming errors in a rest app style, but it could be used in any other setting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --no-opts test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nardhar/mini-mvcs-errors.git"
+  },
+  "keywords": [
+    "errors"
+  ],
+  "author": "Felix Carreño",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nardhar/mini-mvcs-errors/issues"
+  },
+  "homepage": "https://github.com/nardhar/mini-mvcs-errors#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mocha": "^8.2.1"
+  }
+}
